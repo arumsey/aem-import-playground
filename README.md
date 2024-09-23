@@ -1,9 +1,10 @@
-# Your Project's Title...
-Your project's description...
+# AEM Import Playground
+
+A playground for testing AEM import assistance.
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: https://main--aem-import-playground--arumsey.hlx.page/
+- Live: https://main--aem-import-playground--arumsey.hlx.live/
 
 ## Installation
 

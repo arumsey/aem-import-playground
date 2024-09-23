@@ -1,25 +1,24 @@
 {
-  "name": "@adobe/aem-boilerplate",
-  "private": true,
+  "name": "aem-import-playground",
   "version": "1.3.0",
-  "description": "Starter project for Adobe Helix",
+  "description": "AEM Import playground",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arumsey/aem-import-playground.git"
+  },
+  "private": true,
+  "author": "Adobe",
+  "license": "Apache License 2.0",
   "scripts": {
     "lint:js": "eslint .",
     "lint:css": "stylelint blocks/**/*.css styles/*.css",
-    "lint": "npm run lint:js && npm run lint:css"
+    "lint": "npm run lint:js && npm run lint:css",
+    "assistant": "aem-import-helper assistant"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adobe/aem-boilerplate.git"
-  },
-  "author": "Adobe",
-  "license": "Apache License 2.0",
-  "bugs": {
-    "url": "https://github.com/adobe/aem-boilerplate/issues"
-  },
-  "homepage": "https://github.com/adobe/aem-boilerplate#readme",
   "devDependencies": {
     "@babel/eslint-parser": "7.25.1",
+    "aem-import-helper": "^0.5.0",
     "eslint": "8.57.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.29.1",
